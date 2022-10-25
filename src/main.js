@@ -1,5 +1,8 @@
-import "./src/css/index.css"
-import IMask from "imask"
+
+//I did not get to fix the imask issue, therefore I added the imak.js to the index.html
+// It seems to be a problem to use MacBook due to case-(in)sensitive issues: mac is insensitive
+//import "./src/css/index.css" 
+//import IMask from "imask"
 
 const ccBgColor01 = document.querySelector(".cc-bg svg > g g:nth-child(1) path")
 const ccBgColor02 = document.querySelector(".cc-bg svg > g g:nth-child(2) path")
